@@ -23,7 +23,7 @@ void loop() {
     if(sensorValue <= 500){
       Serial.println("전압이 약합니다.");
     }
-    // 저항이 0이면 점등하는 led
+    // 전압이 0이면 점등하는 led
     if(sensorValue == 0){
       digitalWrite(ZledPin, HIGH);
     }else{
