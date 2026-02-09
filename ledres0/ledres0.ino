@@ -12,7 +12,7 @@ void setup() {
     pinMode(ledPin, OUTPUT);
     pinMode(YledPin, OUTPUT);
     pinMode(ZledPin, OUTPUT);
-    pinMode(buttonPin, INPUT);
+    pinMode(buttonPin, INPUT_PULLUP);
     Serial.begin(9600);
 }
 
