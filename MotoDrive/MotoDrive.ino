@@ -13,7 +13,7 @@ void loop() {
   // put your main code here, to run repeatedly:
   digitalWrite(AA, HIGH);          //모터A를 정회전
   digitalWrite(AB, LOW);
-  delay(1000);                     
+  delay(1000); //여기서 둘다 HIGH를 쓰면 쇼트의 위험성이있다.
  
   digitalWrite(AA, LOW);           //모터A를 정지
   digitalWrite(AB, LOW);
